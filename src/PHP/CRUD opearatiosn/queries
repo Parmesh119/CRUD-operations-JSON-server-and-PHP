@@ -1,0 +1,25 @@
+// create the database
+// $sql="CREATE DATABASE crud - json";
+
+// create the tables in the database
+// CREATE TABLE `table - 1` (`sno` INT(3) NOT NULL AUTO_INCREMENT , `age` INT(3) NOT NULL, `name` VARCHAR(10) NOT NULL , `phone` INT(10) NOT NULL , PRIMARY KEY (`sno`))
+
+// insert into database
+          
+
+// delete the revords
+// DELETE FROM `table - 1` WHERE `table - 1`.`Sr_No.` = 1
+
+// update the revords
+// UPDATE `table - 1` SET `Name` = 'Parmesh Bhatt' WHERE `table - 1`.`Sr_No.` = 2;
+
+// retrive the data from the database
+// $sql3 = "SELECT * FROM `table - 1`";
+
+// $sql3 = "SELECT * FROM `table - 1`";
+// $result4 = mysqli_query($conn, $sql3);
+
+// echo "<br>";
+// while($row = mysqli_fetch_array($result4)){
+//      echo $row['Name'] . " " . $row['Email'];
+// }
