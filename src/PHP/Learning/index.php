@@ -54,4 +54,45 @@ if ($result4) {
           echo "<br>";
      }
 */
+     //reading the files
+     // readfile('logo.jpeg');
+     // echo "<br>";
+     // echo "The number of characters are read is ", $a;
+     
+     // read the file using fread and open the file using fopen() function
+     // $fptr = fopen("query.txt", "r") or die("Failed to open");
+     // $content=fread($fptr,filesize("query.txt"));
+     // echo "<br>";
+     // echo $content;
+     // fclose($fptr);
+     
+     //write and append modes in files
+     // $fptr = fopen("query.txt", "w") or die("Failed to open");
+     // fwrite($fptr, "- Parmesh Bhatt\n");
+     // fwrite($fptr, "- Parmesh Bhatt1");
+     // fclose($fptr);
+     
+     //cookie
+     // use WPMailSMTP\Vendor\GuzzleHttp\Cookie\SetCookie;
+     // use WpOrg\Requests\Cookie;
+     // SetCookie("Parmesh", "Bhatt", time() + 86400, "/");
+     // echo "The Cookie is set and we are going to use it";
+     // $cat = $_COOKIE['Parmesh'];
+     // echo "<br>".$cat;
+     
+     //sessions start
+     // session_start();
+     // $_SESSION['sessions1'] = 'Parmesh';
+     // $_SESSION['Session2'] = "Bhatt";
+     // echo "done";
+     
+     // //Access the data through the session
+     // echo "The value of the session1 is ". $_SESSION['sessions1'];
+     // echo "and the value of the session2 is ". $_SESSION['Session2'];
+     
+     // //destroy the session
+     // session_unset();    
+     // session_destroy();
+
+     
      ?>
